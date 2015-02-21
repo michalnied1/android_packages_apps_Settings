@@ -349,6 +349,11 @@
     <string name="kill_app_longpress_back">Zabijaj aplikacje przyciskiem wstecz</string>
     <string name="kill_app_longpress_back_summary">Przytrzymanie przycisku wstecz zabije aktywną aplikację</string>
 
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_category">Pasek nawigacyjnyr</string>
+    <string name="navigation_bar_left_title">Tryb leworęczny</string>
+    <string name="navigation_bar_left_summary">W trybie poziomym pokaż pasek nawigacyjny po lewej stronie ekranu</string>
+ 
     <!-- Buttons - Enable navbar -->
     <string name="disable_navkeys_title">Włącz ekranowy pasek nawigacyjny</string>
     <string name="disable_navkeys_summary">Włącz ekranowy pasek nawigacyjny i zablokuj przyciski sprzętowe</string>
@@ -676,8 +681,6 @@
     <string name="bluetooth_pbap_profile_summary_use_for">Używaj do przesyłania kontaktu</string>
     <!-- Bluetooth settings.  Connection options screen.  The summary for the SAP checkbox preference that describes how checking it will set the SAP profile as preferred. -->
     <string name="bluetooth_sap_profile_summary_use_for">Używaj dla SIM Access</string>
-    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
-    <string name="bluetooth_accept_all_files">Akceptuj wszystkie rodzaje plików</string>
 
     <!-- SIM lock settings title  [CHAR LIMIT=40] -->
     <string name="sim_lock_settings_cm">Ustawienia blokady karty SIM/RUIM</string>
