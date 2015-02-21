@@ -16,21 +16,21 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Bliss Extra Info -->
-    <string name="lsextrainfo">Extra information</string>
-    <string name="lsextrainfo_summary">Display extra info for cpu, display, etc</string>
+    <string name="lsextrainfo">Informacje dodatkowe</string>
+    <string name="lsextrainfo_summary">Wyświetl dodatkowe informacje od procesorze, wyświetlaczu itd</string>
 
     <!-- Share BlissPop -->
-    <string name="share_bliss_title">Share BlissPop</string>
-    <string name="share_bliss_summary">Let others know about BlissPop</string>
-    <string name="share_message">Check out what #BlissPop is all about @ http://www.blissroms.com</string>
-    <string name="share_chooser_title">Share BlissPop</string>
+    <string name="share_bliss_title">Udostępnij BlissPop</string>
+    <string name="share_bliss_summary">Poinformuj innych o BlissPop</string>
+    <string name="share_message">Sprawdź wszystko o #BlissPop na @ http://www.blissroms.com</string>
+    <string name="share_chooser_title">Udostępnij BlissPop</string>
     
     <!-- Text for disabling immersive mode messages -->
-    <string name="disable_immersive_message_title">Disable Immersive Mode Messages</string>
-    <string name="disable_immersive_message_summary">This will hide all Immersive Mode Messages</string> 
+    <string name="disable_immersive_message_title">Zablokuj komunikaty Rozszerzonego Pulpitu</string>
+    <string name="disable_immersive_message_summary">Ukrywa komunikaty Rozszerzonego Pulpitu</string> 
     
     <!-- Partition Info -->
-    <string name="partition_info_title">Partition info</string>
+    <string name="partition_info_title">Informacje o partycji</string>
     <string name="partition_info_system">/system</string>
     <string name="partition_info_data">/data</string>
     <string name="partition_info_cache">/cache</string>
@@ -40,37 +40,37 @@
     
     <!--Embedded AudioFX-->
     <string name="audiofx_settings_title">Equalizer</string>
-    <string name="audiofx_summary">AudioFX Access</string>
+    <string name="audiofx_summary">AudioFX</string>
     
     <!--Embedded Viper4Android-->
     <string name="viper_settings_title">Equalizer</string>
-    <string name="viper_summary">Viper4Android Access</string>    
+    <string name="viper_summary">Viper4Android</string>    
     
     <!-- Display desity -->
-    <string name="display_density">Display density</string>
-    <string name="display_density_summary">Overrides the default display density (0 to disable, requires a reboot)</string>
-    <string name="display_density_override">Reported density</string>
-    <string name="display_density_override_summary">Overrides the display density reported to apps (0 to disable, requires a reboot)</string>     
+    <string name="display_density">Wyświetl zagęszczenie pikseli</string>
+    <string name="display_density_summary">Nadpisuje domyślne zagęszczenie pikseli (0, aby wyłączyć, wymaga ponownego uruchomienia)</string>
+    <string name="display_density_override">Zgłaszanie zagęszczenia pikseli</string>
+    <string name="display_density_override_summary">Nadpisuje raporty o zagęszczeniu pikseli dla aplikacji (0, aby wyłączyć, wymaga ponownego uruchomienia)</string>     
     
     <!-- Toast animations -->
-    <string name="toast_animation_title">Toast animations</string>
-    <string name="toast_animation_summary">Select and preview system toast animation</string>
-    <string name="toast_none_animation">None</string>
-    <string name="toast_default_animation">Default</string>
-    <string name="toast_fade_animation">Fade animation</string>
-    <string name="toast_SlideRight_animation">Slide right</string>
-    <string name="toast_SlideLeft_animation">Slide left</string>
-    <string name="toast_Xylon_animation">Xylon animation</string>
-    <string name="toast_Toko_animation">Toko animation</string>
-    <string name="toast_Tn_animation">Tn animation</string>
-    <string name="toast_Honami_animation">Honami animation</string>
-    <string name="toast_FastFade_animation">Fast fade</string>
-    <string name="toast_GrowFade_animation">Grow fade</string>
-    <string name="toast_GrowFadeCenter_animation">Grow fade center</string>
-    <string name="toast_GrowFadeBottom_animation">Grow fade bottom</string>
-    <string name="toast_Translucent_animation">Translucent animation</string>
-    <string name="toast_SlideLeftRight_animation">Slide left to right</string>
-    <string name="toast_SlideRightLeft_animation">Slide right to left</string>    
+    <string name="toast_animation_title">Animacje toast</string>
+    <string name="toast_animation_summary">Wybierz i obejrzyj systemowe animacje toastów</string>
+    <string name="toast_none_animation">Brak</string>
+    <string name="toast_default_animation">Domyślne</string>
+    <string name="toast_fade_animation">Animacja zanikania</string>
+    <string name="toast_SlideRight_animation">Przesuń w prawo</string>
+    <string name="toast_SlideLeft_animation">SPrzesuń w lero</string>
+    <string name="toast_Xylon_animation">Animacja Xylon</string>
+    <string name="toast_Toko_animation">Animacja Toko</string>
+    <string name="toast_Tn_animation">Animacja Tn</string>
+    <string name="toast_Honami_animation">Animacja Honami</string>
+    <string name="toast_FastFade_animation">Szybkie zanikanie</string>
+    <string name="toast_GrowFade_animation">Rosnące zanikanie</string>
+    <string name="toast_GrowFadeCenter_animation">Rosnące zanikanie środka</string>
+    <string name="toast_GrowFadeBottom_animation">Rosnące zanikanie dołu</string>
+    <string name="toast_Translucent_animation">Półprzezroczysta animacja</string>
+    <string name="toast_SlideLeftRight_animation">Przesuń z lewej do prawej</string>
+    <string name="toast_SlideRightLeft_animation">Przesuń z prawej do lewej</string>    
     
     <!-- Animation Controls -->
     <string name="title_animation_controls">System Animations</string>
@@ -119,30 +119,30 @@
     
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="add">Add</string>
-    <string name="help">Help</string>
+    <string name="reset">Resetuj</string>
+    <string name="add">Dodaj</string>
+    <string name="help">Pomoc</string>
     <string name="reset_android">Android</string>
     <string name="reset_bliss">Bliss</string>
-    <string name="attention">Attention</string>
-    <string name="enabled">Enabled</string>
-    <string name="default_string">Default</string>
-    <string name="more_string">More</string>
-    <string name="color_title">Color</string>
-    <string name="colors_title">Colors</string>
-    <string name="category_colors_title">Customize colors</string>
-    <string name="icons_title">Icons</string>
-    <string name="text_title">Text</string>
-    <string name="reset_message">Reset all entries to default?</string>
-    <string name="reset_option_message">Reset values to\nAndroid- or Bliss default?</string>
-    <string name="category_general_title">General options</string>
-    <string name="dlg_reset_values_message">Reset values to\nAndroid- or Bliss default?</string>
+    <string name="attention">Uwaga</string>
+    <string name="enabled">Włączone</string>
+    <string name="default_string">Domyślne</string>
+    <string name="more_string">Więcej</string>
+    <string name="color_title">Kolor</string>
+    <string name="colors_title">Kolory</string>
+    <string name="category_colors_title">Dostosuj kolory</string>
+    <string name="icons_title">Ikony</string>
+    <string name="text_title">Tekst</string>
+    <string name="reset_message">Przywrócić wszystko do domyślnych?</string>
+    <string name="reset_option_message">Przywrócić domyślne wartości \nAndroida- lub Bliss?</string>
+    <string name="category_general_title">Opcje ogólne</string>
+    <string name="dlg_reset_values_message">Przywrócić domyślne wartości \nAndroida- lub Bliss?</string>
     <string name="dlg_reset_android">Android</string>
     <string name="dlg_reset_bliss">Bliss</string>          
     
     <!-- Sound settings -->
-    <string name="advanced_sound_title">Advanced options</string>
-    <string name="sound_title">Sound</string>    
+    <string name="advanced_sound_title">Opcje zaawansowane</string>
+    <string name="sound_title">Dźwięk</string>    
     
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Safe headset volume</string>
@@ -150,19 +150,19 @@
     <string name="safe_headset_volume_warning_dialog_text">Listening at high volume for long periods may damage your hearing. Disable it with caution.</string>
 
     <!-- Less Notification sounds -->
-    <string name="notifications_category_title">Notifications</string>
-    <string name="less_notification_sounds_title">Less frequent notification sounds</string>
-    <string name="less_notification_sounds_summary">Limit the notification sounds of each app to only play once per set time period</string>
-    <string name="less_notification_sounds_default">Default Behaviour</string>
-    <string name="less_notification_sounds_3s">3 seconds</string>
-    <string name="less_notification_sounds_5s">5 seconds</string>
-    <string name="less_notification_sounds_10s">10 seconds</string>
-    <string name="less_notification_sounds_15s">15 seconds</string>
-    <string name="less_notification_sounds_30s">30 seconds</string>
-    <string name="less_notification_sounds_45s">45 seconds</string>
-    <string name="less_notification_sounds_1m">1 minute</string>
-    <string name="less_notification_sounds_2m">2 minutes</string>
-    <string name="less_notification_sounds_5m">5 minutes</string>
+    <string name="notifications_category_title">Powiadomienia</string>
+    <string name="less_notification_sounds_title">Mniejsza częstotliwość dźwięków powiadomień</string>
+    <string name="less_notification_sounds_summary">Ogranicz powiadomienia dźwiękowe każdej aplikacji, aby odtworzyć je tylko raz w ustalonym czasie</string>
+    <string name="less_notification_sounds_default">Domyślne zachowanie</string>
+    <string name="less_notification_sounds_3s">3 sekundy</string>
+    <string name="less_notification_sounds_5s">5 sekund</string>
+    <string name="less_notification_sounds_10s">10 sekund</string>
+    <string name="less_notification_sounds_15s">15 sekund</string>
+    <string name="less_notification_sounds_30s">30 sekund</string>
+    <string name="less_notification_sounds_45s">45 sekund</string>
+    <string name="less_notification_sounds_1m">1 minuta</string>
+    <string name="less_notification_sounds_2m">2 minuty</string>
+    <string name="less_notification_sounds_5m">5 minut</string>
     
     <!-- long press back to kill configurable timeout -->
     <string name="kill_app_longpress_timeout_title">Long press timeout</string>
@@ -206,32 +206,31 @@
     <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
     
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_summary">Enable various network traffic options in statusbar</string>
-    <string name="show_network_traffic_state">Status bar traffic monitor</string>
-    <string name="show_network_traffic_unit">Display unit</string>
-    <string name="show_network_traffic_frequency">Update interval</string>
-    <string name="show_network_traffic_disable">Disabled</string>
-    <string name="show_network_traffic_up">Outgoing</string>
-    <string name="show_network_traffic_down">Incoming</string>
-    <string name="show_network_traffic_all">Outgoing and incoming</string>
-    <string name="show_network_traffic_bit">Bits per second</string>
-    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="network_traffic_title">Zużycie sieci</string>
+    <string name="show_network_traffic_state">Pokaż zużycie sieci na pasku statusu</string>
+    <string name="show_network_traffic_unit">Wyświetlana jednostka</string>
+    <string name="show_network_traffic_frequency">Interwał aktualizacji</string>
+    <string name="show_network_traffic_disable">Wyłączone</string>
+    <string name="show_network_traffic_up">Wychodzące</string>
+    <string name="show_network_traffic_down">Przychodzące</string>
+    <string name="show_network_traffic_all">Wychodzące i przychodzące</string>
+    <string name="show_network_traffic_bit">Bity na sekundę</string>
+    <string name="show_network_traffic_byte">Bajty na sekundę</string>
     <string name="show_network_traffic_500">500 ms</string>
     <string name="show_network_traffic_1000">1000 ms</string>
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
-    <string name="network_traffic_autohide">Auto hide</string>
-    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-    <string name="network_traffic_color_style">Color style</string>
-    <string name="network_traffic_color_reset">Reset color</string>
-    <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
+    <string name="network_traffic_autohide">Autoukrywaj</string>
+    <string name="network_traffic_autohide_summary">Ukrywaj monitorowanie sieci podczas braku aktywności</string>
+    <string name="network_traffic_autohide_threshold">Próg bezczynności</string>
+    <string name="network_traffic_color_style">Kolor</string>
+    <string name="network_traffic_color_reset"Zresetuj kolor</string>
+    <string name="network_traffic_color_reset_message">Przywrócić kolor zużycia sieci do domyślnych?</string>
 
     
     <!-- Bliss settings screens -->
-    <string name="header_category_personalization">Personalization</string>
-    <string name="interface_settings_title">Bliss Interface</string>
+    <string name="header_category_personalization">Personalizacja</string>
+    <string name="interface_settings_title">Interfejs Bliss</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color picker</string>
@@ -244,8 +243,8 @@
   
     
     <!-- Status bar -->
-    <string name="status_bar_title">Status bar</string>
-    <string name="status_bar_style_title">Style</string>
+    <string name="status_bar_title">Pasek statusu</string>
+    <string name="status_bar_style_title">Styl</string>
 
     <!-- Status bar | Clock -->
     <string name="status_bar_clock">Clock and date</string>
@@ -366,20 +365,20 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="auto_brightness_sensitivity_veryhigh">Very high</string> 
     
     <!-- Recents panel settings -->
-    <string name="recents_options_title">Recents Options</string>
-    <string name="recents_panel_settings">Recents panel settings</string>
-    <string name="show_clear_all_recents_button_title">Clear All Button Tweaks</string>
-    <string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
-    <string name="recents_clear_all_location_title">Clear all recents location</string>
-    <string name="recents_clear_all_location_top_right">Top right</string>
-    <string name="recents_clear_all_location_top_left">Top left</string>
-    <string name="recents_clear_all_location_top_center">Top center</string>    
-    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-    <string name="recents_clear_all_dismiss_all_title">Clear all tasks</string>
-    <string name="recents_clear_all_dismiss_all_summary">Choose whether to dismiss all tasks or ignore the foreground task</string> 
-    
+    <string name="recents_options_title">Ostatnio używane aplikacje</string>
+    <string name="recents_panel_settings">Ustawienia panelu ostatnio używanych aplikacji</string>
+    <string name="show_clear_all_recents_button_title">Przycisk wyczyść wszystkie</string>
+    <string name="show_clear_all_recents_button_summary">Pokaż przycisk usunięcia ostatnio używanych aplikacji</string>
+    <string name="recents_clear_all_location_title">Położenie przycisku wyczyść wszystkie</string>
+    <string name="recents_clear_all_location_top_right">Górny prawy róg</string>
+    <string name="recents_clear_all_location_top_left">Górny lewy róg</string>
+    <string name="recents_clear_all_location_top_center">Na górze na środku</string>
+    <string name="recents_clear_all_location_bottom_right">Dolny prawy róg</string>
+    <string name="recents_clear_all_location_bottom_left">Dolny lewy róg</string>
+    <string name="recents_clear_all_location_bottom_center">Na dole na środku</string> 
+    <string name="recents_clear_all_dismiss_all_title">Wyczyść wszystkie zadania</string>
+    <string name="recents_clear_all_dismiss_all_summary">Wybierz, czy usuwać wszystkie zadania, czy zignorować ostatnio uruchomione</string>
+   
     <!-- QuickSettings: Quick Pulldown -->
     <string name="title_quick_pulldown">Quick pulldown</string>
     <string name="summary_quick_pulldown">%1$s edge of the status bar pulls down Quick Settings</string>
