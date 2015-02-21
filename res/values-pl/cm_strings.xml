@@ -160,20 +160,20 @@
     <string name="volbtn_wake_device_summary">Naciśnięcie przycisku głośności wybudzi urządzenie</string>
 
     <!-- Power menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_power_title">Power off</string>
-    <string name="power_menu_reboot_title">Reboot menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="powermenu_screenshot_delay_title">Set screenshot delay</string>
-    <string name="power_menu_profiles_title">Profile switcher</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_settings_title">Settings shortcut</string>
-    <string name="power_menu_lockdown_title">Device lockdown</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_sound_title">Sound panel</string>
-    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-    <string name="power_menu_profiles_disabled">System profiles are disabled</string>
+    <string name="power_menu_title">Menu zasilania</string>
+    <string name="power_menu_power_title">Wyłącz</string>
+    <string name="power_menu_reboot_title">Menu ponownego uruchamiania</string>
+    <string name="power_menu_screenshot_title">Zrzut ekranu</string>
+    <string name="powermenu_screenshot_delay_title">Ustaw opóźnienie zrzutu ekranu</string>
+    <string name="power_menu_profiles_title">Przełączanie profili</string>
+    <string name="power_menu_airplane_title">Tryb samolotowy</string>
+    <string name="power_menu_users_title">Przełączanie użytkownika</string>
+    <string name="power_menu_settings_title">Ustawienia skrótów</string>
+    <string name="power_menu_lockdown_title">Blokada urządzenia</string>
+    <string name="power_menu_bug_report_title">Raport o błędzie</string>
+    <string name="power_menu_sound_title">Panel dźwięków</string>
+    <string name="power_menu_bug_report_disabled">Raportowanie błędów jest wyłączone w opcjach programistycznych</string>
+    <string name="power_menu_profiles_disabled">Profile są wyłączone</string>
 
     <!-- Backlight brightness settings screen -->
     <string name="adaptive_backlight_title">Adaptive backlight</string>
