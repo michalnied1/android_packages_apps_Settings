@@ -899,6 +899,10 @@
     <string name="qs_tile_notifications">Powiadomienia</string>    
     <string name="qs_tile_profiles">Profiles</string>
     <string name="qs_tile_performance">Wydajność</string>
+    <string name="qs_tile_nfc">NFC</string>
+    <string name="qs_tile_compass">Kompas</string>
+    <string name="qs_tile_lockscreen">Blokada ekranu</string>
+    <string name="qs_title_profiles">Profile</string>
     <string name="qs_title_nfc">NFC</string>
     <string name="qs_title_compass">Kompas</string>
     <string name="qs_tile_lockscreen">Blokada ekranu</string>
