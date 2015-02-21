@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2012-2015 The CyanogenMod Project
-
+     
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
+     
           http://www.apache.org/licenses/LICENSE-2.0
-
+          
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -17,51 +17,51 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_cm">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling development settings.</item>
-        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
+     <item quantity="one" msgid="5295687242294085452">"Od zostania programistą dzieli Cię już tylko <xliff:g id="STEP_COUNT">%1$d</xliff:g> krok."</item>
+     <item quantity="other" msgid="6722953419953594148">"Od zostania programistą dzieli Cię już tylko tyle kroków: <xliff:g id="STEP_COUNT">%1$d</xliff:g>."</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">You have enabled development settings!</string>
+    <string name="show_dev_on_cm">Opcje programistyczne zostały włączone!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">No need, you have already enabled development settings.</string>
+    <string name="show_dev_already_cm">Już nie trzeba, opcje programistyczne są włączone.</string>
 
     <!-- Launch Dev Tools -->
-    <string name="development_tools_title">Development tools</string>
+    <string name="development_tools_title">Narzędzia programistyczne</string>
 
     <!-- Setting checkbox title for root access -->
-    <string name="root_access">Root access</string>
-    <string name="root_access_warning_title">Allow root access?</string>
-    <string name="root_access_warning_message">Allowing apps to request root access is very dangerous and could compromise the security of your system!</string>
-    <string name="root_access_none">Disabled</string>
-    <string name="root_access_apps">Apps only</string>
-    <string name="root_access_adb">ADB only</string>
-    <string name="root_access_all">Apps and ADB</string>
+    <string name="root_access">Dostęp do roota</string>
+    <string name="root_access_warning_title">Zezwolić na dostęp do roota?</string>
+    <string name="root_access_warning_message">Przyznanie aplikacjom dostępu do roota jest niebiezpieczne i może zagrozić bezpieczeństwu systemu!</string>
+    <string name="root_access_none">Wyłączone</string>
+    <string name="root_access_apps">Tylko aplikacje</string>
+    <string name="root_access_adb">Tylko ADB</string>
+    <string name="root_access_all">Aplikacje i ADB</string>
 
     <!-- Sound settings screen -->
-    <string name="ring_mode_title">Ring mode</string>
-    <string name="ring_mode_normal">Normal</string>
-    <string name="ring_mode_vibrate">Vibrate</string>
-    <string name="ring_mode_mute">Mute</string>
+    <string name="ring_mode_title">Tryb dźwięku</string>
+    <string name="ring_mode_normal">Normalny</string>
+    <string name="ring_mode_vibrate">Wibracje</string>
+    <string name="ring_mode_mute">Wyciszony</string>
 
     <!-- Profiles settings  -->
-    <string name="profiles_settings_title">System profiles</string>
-    <string name="profiles_add">Add</string>
+    <string name="profiles_settings_title">Profile</string>
+    <string name="profiles_add">Dodaj</string>
     <string name="profile_settings_title">Profile</string>
-    <string name="profile_empty_list_profiles_off">To configure and use system profiles, turn profiles on.</string>
-    <string name="profile_trigger_configure">Configure trigger</string>
-    <string name="profile_write_nfc_tag">Write to NFC tag</string>
-    <string name="profile_write_touch_tag">Touch tag to write</string>
-    <string name="profile_write_success">Tag successfully written</string>
-    <string name="profile_write_failed">Tag writing failed!</string>
-    <string name="profile_selected">Profile selected: %1$s</string>
-    <string name="profile_nfc_text">Writing a profile to a NFC tag allows for tapping the tag to select the profile. Tapping a second time will select the previously selected profile.</string>
-    <string name="profile_unknown_nfc_tag">Unknown profile</string>
-    <string name="profile_add_nfc_text">This NFC tag refers to an unknown profile. Attaching this NFC tag to an existing profile will allow for selecting the profile in the future.</string>
-    <string name="profile_select">Select profile</string>
-    <string name="profile_remove_dialog_message">Remove profile %1$s?</string>
-    <string name="profile_populate_profile_from_state">Configure profile using current device settings?</string>
-    <string name="profile_menu_fill_from_state">Import current device settings</string>
-    <string name="profile_remove_current_profile">Cannot delete current profile!</string>
+    <string name="profile_empty_list_profiles_off">Włącz profile, aby je skonfigurować i używać.</string>
+    <string name="profile_trigger_configure">Skonfiguruj przełączniki</string>
+    <string name="profile_write_nfc_tag">Zapisz do tagu NFC</string>
+    <string name="profile_write_touch_tag">Dotknij tag, aby zapisać</string>
+    <string name="profile_write_success">Tag został zapisany pomyślnie</string>
+    <string name="profile_write_failed">Zapisywanie tagu nie powiodło się!</string>
+    <string name="profile_selected">Wybrany profil: %1$s</string>
+    <string name="profile_nfc_text">Zapisanie profilu na tagu NFC pozwala aktywować go poprzez dotknięcie. Dotknięcie po raz drugi aktywuje wcześniejszy profil.</string>
+    <string name="profile_unknown_nfc_tag">Nieznany profil</string>
+    <string name="profile_add_nfc_text">Ten tag NFC odwołuje się do nieznanego profilu. Zapisanie tego taga NFC do istniejącego profilu pozwoli na aktywowanie go w przyszłości.</string>
+    <string name="profile_select">Wybierz profil</string>
+    <string name="profile_remove_dialog_message">Usunąć profil %1$s?</string>
+    <string name="profile_populate_profile_from_state">Skonfigurować profil używająć aktualnych ustawień urządzenia?</string>
+    <string name="profile_menu_fill_from_state">Importowanie aktualnych ustawień urządzenia</string>
+    <string name="profile_remove_current_profile">Nie można usunąć bieżącego profilu!</string>
 
     <!-- Add Profile -->
     <string name="profile_name_title">Name</string>
@@ -84,80 +84,80 @@
     <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
 
     <!-- Profile Config screen PreferenceGroup titles -->
-    <string name="profile_volumeoverrides_title">Volume overrides</string>
-    <string name="volume_override_summary">Set to %1$s/%2$s</string>
-    <string name="profile_volume_override_checkbox_label">Override volume</string>
+    <string name="profile_volumeoverrides_title">Ustawienia dźwięków</string>
+    <string name="volume_override_summary">Ustaw %1$s/%2$s</string>
+    <string name="profile_volume_override_checkbox_label">Zmień głośność</string>
 
     <!-- Menu item for managing profiles -->
-    <string name="profile_profiles_manage">Profiles</string>
-    <string name="profile_profile_manage">Manage profile</string>
+    <string name="profile_profiles_manage">Profile</string>
+    <string name="profile_profile_manage">Zarządzaj profilami</string>
 
     <!-- Profile settings screen, section header for settings related to notification profiles -->
-    <string name="profile_settings">Profile settings</string>
-    <string name="profile_trigger_connect">On connect</string>
-    <string name="profile_trigger_disconnect">On disconnect</string>
-    <string name="profile_trigger_notrigger">No trigger</string>
+    <string name="profile_settings">Ustawienia profili</string>
+    <string name="profile_trigger_connect">Przy podłączeniu</string>
+    <string name="profile_trigger_disconnect">Przy odłączeniu</string>
+    <string name="profile_trigger_notrigger">Brak przełącznika</string>
 
     <!-- Title for application group setting screen -->
-    <string name="profile_applist_title">Apps</string>
+    <string name="profile_applist_title">Aplikacje</string>
 
     <!-- Add application dialog box title -->
-    <string name="profile_choose_app">Choose app</string>
-
+    <string name="profile_choose_app">Wybierz aplikację</string>
+   
     <!-- Profiles - system settings -->
-    <string name="profile_system_settings_title">System settings</string>
-    <string name="profile_lockmode_title">Lock screen mode</string>
-    <string name="profile_lockmode_insecure_summary">Don\'t ask for PIN or password</string>
-    <string name="profile_lockmode_disabled_summary">Disable lock screen</string>
-    <string name="profile_airplanemode_title">Airplane mode</string>
+    <string name="profile_system_settings_title">Ustawienia systemu</string>
+    <string name="profile_lockmode_title">Tryb blokady ekranu</string>
+    <string name="profile_lockmode_insecure_summary">Nie pytaj o PIN lub hasło</string>
+    <string name="profile_lockmode_disabled_summary">Wyłącz ekran blokady</string>
+    <string name="profile_airplanemode_title">Tryb samolotowy</string>
 
     <!-- Connection override toggles (not all are used at this time ) -->
-    <string name="toggleWifi">Wi\u2011Fi</string>
-    <string name="toggleWifiAp">Portable Wi\u2011Fi hotspot</string>
+    <string name="toggleWifi">Wi-Fi</string>
+    <string name="toggleWifiAp">Przenośny hotspot Wi-Fi</string>
     <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleGPS">GPS</string>
-    <string name="toggleData">Data connection</string>
-    <string name="toggleSync">Auto-sync data</string>
-    <string name="toggle2g3g4g">Preferred network type</string>
+    <string name="toggleData">Dane komórkowe</string>
+    <string name="toggleSync">Synchronizacja danych</string>
+    <string name="toggle2g3g4g">Preferowany tryb sieci</string>
     <string name="toggleNfc">NFC</string>
 
     <!-- Hardware keys -->
-    <string name="button_pref_title">Buttons</string>
-    <string name="hardware_keys_power_key_title">Power button</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
-    <string name="hardware_keys_appswitch_key_title">Recents button</string>
-    <string name="hardware_keys_volume_keys_title">Volume buttons</string>
-    <string name="hardware_keys_short_press_title">Short press action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys_action_nothing">No action</string>
-    <string name="hardware_keys_action_menu">Open/close menu</string>
-    <string name="hardware_keys_action_app_switch">Recent apps switcher</string>
-    <string name="hardware_keys_action_search">Search assistant</string>
-    <string name="hardware_keys_action_voice_search">Voice search</string>
-    <string name="hardware_keys_action_in_app_search">In-app search</string>
-    <string name="hardware_keys_action_launch_camera">Launch camera</string>
-    <string name="hardware_keys_action_sleep">Turn screen off</string>
-    <string name="volbtn_music_controls_title">Playback control</string>
-    <string name="volbtn_music_controls_summary">When the screen is off, long pressing the volume keys will seek music tracks</string>
-    <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
-    <string name="volbtn_cursor_control_off">Disabled</string>
-    <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>    
-    <string name="button_wake_title">Wake up device</string>
-    <string name="button_wake_summary">Overrides playback control</string>    
-    <string name="hardware_keys_action_last_app">Last app</string>
-    <string name="swap_volume_buttons_title">Reorient</string>
-    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
-    <string name="power_end_call_title">End call</string>
-    <string name="power_end_call_summary">Pressing the power button will end the current call</string>
-    <string name="home_answer_call_title">Answer call</string>
-    <string name="home_answer_call_summary">Pressing the home button will answer the current incoming call</string>
-    <string name="volbtn_wake_device_title">Wake up device</string>
-    <string name="volbtn_wake_device_summary">Pressing either volume button will wake your device</string>
+    <string name="button_pref_title">Przyciski</string>
+    <string name="hardware_keys_power_key_title">Przycisk zasilania</string>
+    <string name="hardware_keys_home_key_title">Przycisk home</string>
+    <string name="hardware_keys_menu_key_title">Przycisk menu</string>
+    <string name="hardware_keys_back_key_title">Przycisk wstecz</string>
+    <string name="hardware_keys_assist_key_title">Przycisk wyszukiwania</string>
+    <string name="hardware_keys_appswitch_key_title">Przycisk ostatnich aplikacji</string>
+    <string name="hardware_keys_volume_keys_title">Przyciski głośności</string>
+    <string name="hardware_keys_short_press_title">Krótkie naciśnięcie</string>
+    <string name="hardware_keys_long_press_title">Długie naciśnięcie</string>
+    <string name="hardware_keys_double_tap_title">Podwójne naciśnięcie</string>
+    <string name="hardware_keys_action_nothing">Brak akcji</string>
+    <string name="hardware_keys_action_menu">Otwórz/zamknij menu</string>
+    <string name="hardware_keys_action_app_switch">Przełączanie ostatnich aplikacji</string>
+    <string name="hardware_keys_action_search">Asystent wyszukiwania</string>
+    <string name="hardware_keys_action_voice_search">Wyszukiwanie głosowe</string>
+    <string name="hardware_keys_action_in_app_search">Wyszukiwanie w aplikacji</string>
+    <string name="hardware_keys_action_launch_camera">Włącz aparat</string>
+    <string name="hardware_keys_action_sleep">Wygaś ekran</string>
+    <string name="hardware_keys_action_last_app">Ostatnia aplikacja</string>
+    <string name="volbtn_music_controls_title">Sterowanie odtwarzaczem</string>
+    <string name="volbtn_music_controls_summary">Kiedy ekran jest wyłączony, pozwala przełączać utwory muzyczne długim naciśnięciem przycisku głośności</string>
+    <string name="volbtn_cursor_control_title">Sterowanie kursorem za pomocą klawiszy</string>
+    <string name="volbtn_cursor_control_off">Wyłączone</string>
+    <string name="volbtn_cursor_control_on">Przyciski głośności w górę/dół poruszają kursorem w lewo/prawo</string>
+    <string name="volbtn_cursor_control_on_reverse">Przyciski głośności w górę/dół poruszają kursorem w prawo/lewo</string>
+    <string name="swap_volume_buttons_title">Zmień orientację</string>
+    <string name="swap_volume_buttons_summary">Zamień przyciski głośności, kiedy ekran jest odwrócony</string>
+    <string name="power_end_call_title">Kończenie rozmowy</string>
+    <string name="power_end_call_summary">Naciśnięcie przycisku zasilania zakończy bieżące połączenie</string>
+    <string name="button_wake_title">Wybudź urządzenie</string>
+    <string name="button_wake_summary">Zastępuje sterowanie odtwarzaczem</string>
+    <string name="home_answer_call_title">Odbieranie połączeń</string>
+    <string name="home_answer_call_summary">Naciśnięcie przycisku home odbierze bieżące połączenie przychodzące</string>
+    <string name="volbtn_wake_device_title">Wybudź urządzenie</string>
+    <string name="volbtn_wake_device_summary">Naciśnięcie przycisku głośności wybudzi urządzenie</string>
 
     <!-- Power menu -->
     <string name="power_menu_title">Power menu</string>
