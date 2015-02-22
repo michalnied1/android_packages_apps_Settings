@@ -53,27 +53,27 @@
     <string name="display_density_override_summary">Nadpisuje raporty o zagęszczeniu pikseli dla aplikacji (0, aby wyłączyć, wymaga ponownego uruchomienia)</string>     
     
     <!-- Toast animations -->
-    <string name="toast_animation_title">Animacje toast</string>
+    <string name="toast_animation_title">Animacje</string>
     <string name="toast_animation_summary">Wybierz i obejrzyj systemowe animacje toastów</string>
     <string name="toast_none_animation">Brak</string>
     <string name="toast_default_animation">Domyślne</string>
-    <string name="toast_fade_animation">Animacja zanikania</string>
+    <string name="toast_fade_animation">Cień</string>
     <string name="toast_SlideRight_animation">Przesuń w prawo</string>
-    <string name="toast_SlideLeft_animation">SPrzesuń w lero</string>
-    <string name="toast_Xylon_animation">Animacja Xylon</string>
-    <string name="toast_Toko_animation">Animacja Toko</string>
-    <string name="toast_Tn_animation">Animacja Tn</string>
-    <string name="toast_Honami_animation">Animacja Honami</string>
-    <string name="toast_FastFade_animation">Szybkie zanikanie</string>
-    <string name="toast_GrowFade_animation">Rosnące zanikanie</string>
-    <string name="toast_GrowFadeCenter_animation">Rosnące zanikanie środka</string>
-    <string name="toast_GrowFadeBottom_animation">Rosnące zanikanie dołu</string>
-    <string name="toast_Translucent_animation">Półprzezroczysta animacja</string>
+    <string name="toast_SlideLeft_animation">Przesuń w lewo</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Szybki cień</string>
+    <string name="toast_GrowFade_animation">Rosnący cień</string>
+    <string name="toast_GrowFadeCenter_animation">Rosnący cień od środka</string>
+    <string name="toast_GrowFadeBottom_animation">Rosnący cień od dołu</string>
+    <string name="toast_Translucent_animation">Półprzezroczystość</string>
     <string name="toast_SlideLeftRight_animation">Przesuń z lewej do prawej</string>
     <string name="toast_SlideRightLeft_animation">Przesuń z prawej do lewej</string>    
     
     <!-- Animation Controls -->
-    <string name="title_animation_controls">System Animations</string>
+    <string name="title_animation_controls">System</string>
     <string name="activity_open_title">Activity Open Animation</string>
     <string name="activity_close_title">Activity Close Animation</string>
     <string name="task_open_title">Task Open Animation</string>
@@ -114,7 +114,7 @@
     <string name="hfm_update_hosts_summary">Ściągnij i zastosuj świeży plik hostów</string>
     <string name="hfm_dialog_wait">Pracuję, proszę czekać...</string>
     <string name="hfm_dialog_failed">Nie udało się zaktualizować pliku hostów. Spróbuj ponownie.</string>
-    <string name="hfm_dialog_success">/4 źródła hostów udało się pomyślne zastosować!</string>
+    <string name="hfm_dialog_success">Udało się pomyślne zastosować /4 źródła hostów!</string>
     <string name="hfm_dialog_conn_error">Błąd: Brak połączenia sieciowego</string>
     
     <!-- General strings -->
@@ -145,9 +145,9 @@
     <string name="sound_title">Dźwięk</string>    
     
     <!-- Safe headset volume restore checkbox -->
-    <string name="safe_headset_volume_title">Safe headset volume</string>
-    <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
-    <string name="safe_headset_volume_warning_dialog_text">Listening at high volume for long periods may damage your hearing. Disable it with caution.</string>
+    <string name="safe_headset_volume_title">Bezpieczna głośność słuchawek</string>
+    <string name="safe_headset_volume_summary">Zapobiegaj wysokiemu poziomowi głośności przy podłączeniu słuchawek po raz pierwszy</string>
+    <string name="safe_headset_volume_warning_dialog_text">Słuchanie muzyki na wysokim poziomie głośności może spowodować uszkodzenie słuchu. Wyłącz to z rozwagą.</string>
 
     <!-- Less Notification sounds -->
     <string name="notifications_category_title">Powiadomienia</string>
@@ -165,45 +165,45 @@
     <string name="less_notification_sounds_5m">5 minut</string>
     
     <!-- long press back to kill configurable timeout -->
-    <string name="kill_app_longpress_timeout_title">Long press timeout</string>
-    <string name="timeout_2000">2 seconds (default)</string>
-    <string name="timeout_1500">1,5 seconds</string>
-    <string name="timeout_1000">1 second</string>
-    <string name="timeout_500">0,5 second</string>  
+    <string name="kill_app_longpress_timeout_title">Czas długiego naciśnięcia</string>
+    <string name="timeout_2000">2 sekundy (domyślne)</string>
+    <string name="timeout_1500">1,5 sekundy</string>
+    <string name="timeout_1000">1 sekunda</string>
+    <string name="timeout_500">0,5 sekundy</string>  
     
     <!-- Keyboard and Input ASS methods  -->
-    <string name="title_keyboard_input">Advanced options</string>
-    <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
-    <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
-    <string name="keyboard_rotation_toggle_title">Auto keyboard rotation</string>
-    <string name="keyboard_rotation_toggle_summary">Force auto-rotate when keyboard is shown</string>
-    <string name="keyboard_rotation_timeout_title">Auto-rotate timeout</string>
-    <string name="keyboard_rotation_timeout_summary">Disables auto-rotate sensor <xliff:g id="rotate_timeout">%1$s</xliff:g> seconds after keyboard is hidden</string>
-    <string name="keyboard_rotation_dialog">This feature forces auto-rotate to turn on temporarily while the keyboard is shown.  It has no effect when auto-rotate is already enabled.</string>
-    <string name="show_enter_key_title">Show enter key</string>
-    <string name="show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
-    <string name="ime_switcher_notify">Selector notification</string>
-    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+    <string name="title_keyboard_input">Opcje zaawansowane</string>
+    <string name="disable_fullscreen_keyboard_title">Wyłącz klawiaturę pełnoekranową</string>
+    <string name="disable_fullscreen_keyboard_summary">Klawiatura w trybie poziomym nigdy nie zasłoni całego ekranu</string>
+    <string name="keyboard_rotation_toggle_title">Autoobracanie klawiatury</string>
+    <string name="keyboard_rotation_toggle_summary">Wymuś autoobracanie klawiatury, kiedy jest ona wyświetlona</string>
+    <string name="keyboard_rotation_timeout_title">Czas autoobracania</string>
+    <string name="keyboard_rotation_timeout_summary">Wyłącza czujnik autoobracania <xliff:g id="rotate_timeout">%1$s</xliff:g> sekund po schowaniu klawiatury</string>
+    <string name="keyboard_rotation_dialog">Ta opcja wymusza autoobracanie, gdy wyświetlona zostaje klawiatura. Nie będzie żadnego efektu, gdy autoobracanie jest już włączone</string>
+    <string name="show_enter_key_title">Pokaż klawisz enter</string>
+    <string name="show_enter_key_summary">Wymusza pokazanie przycisku enter zamiast przycisku emotikon</string>
+    <string name="ime_switcher_notify">Ikona wyboru klawiatury</string>
+    <string name="ime_switcher_notify_summary">Wyświetla ikonę wyboru klawiatury</string>
     
     <!-- Wakeup options -->
-    <string name="display_category_wakeup_options_title">Opcje wybudzania/usypiania</string>
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>    
+    <string name="display_category_wakeup_options_title">Opcje wybudzania i usypiania</string>
+    <string name="wakeup_when_plugged_unplugged_title">Wybudź przy podłączeniu</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wybudź urządzenie podczas podłączenia lub odłączenia źródła zasilania.</string>    
     
     <!-- Volume Keys Media Control -->
-    <string name="volume_keys_control_media_stream">Media control</string>
-    <string name="volume_keys_control_media_stream_summary">Volume keys control media volume rather than notifications</string>
+    <string name="volume_keys_control_media_stream">Kontrola multimediów</string>
+    <string name="volume_keys_control_media_stream_summary">Klawisze głośności regulują głośność multimediów zamiast powiadomień</string>
     <string name="volume_button_toggle_info">Volume rocker wake must be disabled</string>                
 
     <!-- Per app controls for LP keyguard notifications -->
-    <string name="app_notification_show_on_keyguard_title">Show on lockscreen</string>
-    <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lockscreen</string>
-    <string name="app_notification_no_ongoing_on_keyguard_title">Disable ongoing on lockscreen</string>
-    <string name="app_notification_no_ongoing_on_keyguard_summary">Never show ongoing notifications from this app on the lockscreen</string>
+    <string name="app_notification_show_on_keyguard_title">Pokaż na ekranie blokady</string>
+    <string name="app_notification_show_on_keyguard_summary">Wyświetl powiadomienia z tej aplikacji na ekranie blokady</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Wyłącz trwające powiadomienia na ekranie blokady</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Nigdy nie pokazuj trwających powiadomień z tej aplikacji na ekranie blokady</string>
     
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
-    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+    <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
+    <string name="screenshot_sound_summary">Odtwarza dźwięk podczas wykonania zrzutu ekranu</string>
     
     <!-- Network traffic -->
     <string name="network_traffic_title">Zużycie sieci</string>
@@ -233,13 +233,13 @@
     <string name="interface_settings_title">Interfejs Bliss</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color picker</string>
-    <string name="press_color_to_apply">Press on color at right to apply</string>
+    <string name="dialog_color_picker">Wybór koloru</string>
+    <string name="press_color_to_apply">Naciśnij kolor z prawej strony, aby go zastosować</string>
     <string name="arrow_right">→</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">Ustaw</string>
+    <string name="color_default">Domyślne</string>
   
     
     <!-- Status bar -->
@@ -247,46 +247,46 @@
     <string name="status_bar_style_title">Styl</string>
 
     <!-- Status bar | Clock -->
-    <string name="status_bar_clock">Clock and date</string>
-    <string name="status_bar_clock_title">Clock and date style</string>
-    <string name="clock_title_enable">Alignment</string>
-    <string name="clock_enabled">Enabled</string>
-    <string name="clock_disabled">Disabled</string>
-    <string name="clock_color_title">Color</string>
-    <string name="status_bar_clock_style_reset">Reset color</string>
-    <string name="status_bar_show_clock_title">Show clock and date</string>
+    <string name="status_bar_clock">Zegar i data</string>
+    <string name="status_bar_clock_title">Styl zegara i daty</string>
+    <string name="clock_title_enable">Wyrównany</string>
+    <string name="clock_enabled">Włączony</string>
+    <string name="clock_disabled">Wyłączony</string>
+    <string name="clock_color_title">Kolor</string>
+    <string name="status_bar_clock_style_reset">Zresetuj kolor</string>
+    <string name="status_bar_show_clock_title">Wyświetl zegar i datę</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-    <string name="enable_clock_weekday">Day of the week</string>
-    <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
-    <string name="right_clock">Right clock</string>
-    <string name="center_clock">Center clock</string>
-    <string name="dont_show">Don\'t show</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_style">Date style</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="am_pm_clock_normal">Normal font size</string>
-    <string name="am_pm_clock_small">Small font size</string>
-    <string name="am_pm_clock_none">Don\'t show</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
-    <string name="clock_font_style_title">Font</string>
+    <string name="status_bar_am_pm_info">Włączono format 24-godzinny</string>
+    <string name="enable_clock_weekday">Dzień tygodnia</string>
+    <string name="enable_clock_weekday_summary">Skrócony dzień tygodnia przed zegarem</string>
+    <string name="right_clock">Z prawej</string>
+    <string name="center_clock">Wyśrodkowany</string>
+    <string name="dont_show">Nie pokazuj/string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Wyświetl datę przed zegarem</string>
+    <string name="clock_date_style">Styl daty</string>
+    <string name="clock_date_format">Format daty</string>
+    <string name="clock_date_string_edittext_title">Musi być w formacie np. MM/DD/RR</string>
+    <string name="clock_date_string_edittext_summary">Wprowadź nazwę</string>
+    <string name="am_pm_clock_normal">Normalny rozmiar czcionki</string>
+    <string name="am_pm_clock_small">Mały rozmiar czcionki</string>
+    <string name="am_pm_clock_none">Nie pokazuj</string>
+    <string name="clock_date_display_none">Nie pokazuj</string>
+    <string name="clock_date_display_small">Mały rozmiar czcionki</string>
+    <string name="clock_date_display_normal">Normalny rozmiar czcionki</string>
+    <string name="clock_date_style_normal">Normalny</string>
+    <string name="clock_date_style_lowercase">Małe litery</string>
+    <string name="clock_date_style_uppercase">Wielkie litery</string>
+    <string name="clock_date_format_custom">Własny format Javy</string>
+    <string name="status_bar_clock_style_reset_message">Zresetować kolor zegara?</string>
+    <string name="clock_font_style_title">Czcionka</string>
     <string name="clock_font_bold">Bold</string>
     <string name="clock_font_condensed">Condensed</string>
     <string name="clock_font_light">Light</string>
     <string name="clock_font_light_italic">Light italic</string>
     <string name="clock_font_normal">Normal</string>
-    <string name="clock_use_second">Use second clock</string>
-    <string name="clock_use_second_summary">Show second in clock</string>
+    <string name="clock_use_second">Sekundy</string>
+    <string name="clock_use_second_summary">Wyświetl sekundy w zegarze</string>
     
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
